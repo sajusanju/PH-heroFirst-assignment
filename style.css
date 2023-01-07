@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* header section styles */
+
+.header{
+    height: 800px;
+    width: 1520px;
+    background: url(banner/banner3.png);
+    
+   
+} 
+.header2{
+    height: 500px;
+    width: 1520px;
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content:center;
+    text-align: right;
+    color: aliceblue;
+    
+    
+    
+   }
+
+   .header h2{
+    font-size: 60px;
+    margin-left: 870px;
+    margin-right: 330px;
+    text-justify: right;
+    padding-bottom: 15px;
+   }
+    .header p{
+    margin-left: 870px;
+    margin-right: 330px ;
+    
+   } 
+
+   .btn{
+    margin-left: 1050px;
+    margin-right: 300px ;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: rgb(6, 74, 95);
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+   }
+
+   /* main section */
+
+   
