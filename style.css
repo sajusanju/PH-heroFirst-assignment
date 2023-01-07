@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body{font-family: 'Josefin Sans', sans-serif;
 
 }
 
 /* header section styles */
-
 .header{
     height: 800px;
     width: 1520px;
@@ -155,8 +155,95 @@ body{font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
     margin-top: 20px;
-} 
+}
+
+
+
+.container{
+    display: flex;
+    margin-top: 15px;
+    margin-top: 80px;
+}
     
     
+ .goodhabit{
+    padding: 150px;
+    padding-right: 160px;
+ }   
+
+ .goodhabit h1{
+    font-size: 45px;
+ }
+ .goodhabit p{
+    text-align: center;
+    font-size: 27px;
     
+ }
+
+ .goodhabit span{
+    color: rgb(170, 173, 20);
+ }
+ .habit{
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+ }
+
+ /* footer section styles */
+
+ .footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 450px;
+    width: 1520px;
+
+ }
+
+ .future{
+    width: 500px;
+    padding: 200px;
+ }
+ .future img{
+    margin-left: 0px;
+    margin-top: -32px;
+}
+ 
+
+ .future h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+
+ .futureicon{
+    display: inline;
+ }
+ .sub{
+    margin-top: 212px;
+ }
+ .sub h3{
+    font-size: 30px;
+    margin-bottom: 9px;
+    
+ }
+ .sub input{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 17px;
+ }
+
+ .sub button{
+    
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: rgb(6, 74, 95);
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+ }
+
+ /* finish */
 
